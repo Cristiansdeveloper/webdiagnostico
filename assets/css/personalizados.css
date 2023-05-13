@@ -1,0 +1,111 @@
+.button:hover{
+background-color: #CBAD8D;
+color: white !important;
+}
+
+.defenca{
+    margin:0px;
+}
+
+.lista-palabras{
+    display:none;
+    content: '\f078';
+}
+
+.letra {
+    display: none;
+ }
+
+ .letra-dentro{
+    padding-bottom:2em;
+    color: #3A2D28;
+ }
+ .letra-general a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom:10px;
+    border-bottom:none;
+ }
+
+ .letra-general i{
+    padding-left:10px;
+    text-decoration: none;
+ }
+
+ .rotate{
+    transform: rotate(+90deg);
+ }
+
+ .letra-general{
+    padding:1.5em;
+    border: 1px solid #A48374;
+    margin-bottom: 1em;
+ }
+
+ #a,#c,#e,#i,#m,#s{
+    background-color: #EBE3D8;
+    
+ }
+
+ #b,#d,#f, #l, #p, #t{
+    background-color: #F1EDE6;
+ }
+
+ .listapers {
+    list-style: none;
+  }
+
+.listapers li::before{
+    content: "\2022";
+    color: #3A2D28 !important;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+
+}
+
+.recurso{
+   border: 3px #A48374 solid;
+   padding: 20px 20px;
+   text-align: center;
+   height: auto;
+}
+
+.enlace-recurso{
+   text-decoration: none !important;
+   border-bottom: none;
+
+}
+
+.icono-recurso{
+   max-width: 100%;
+
+}
+
+footer {
+   background-color: #f7f7f7;
+   padding: 20px 0;
+   text-align: center;
+   font-size: 14px;
+}
+
+button#myBtn {
+   display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   z-index: 99;
+   border: none;
+   outline: none;
+   background-color: #fff;
+   color: white;
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 50%;
+}
+
+button#myBtn:hover {
+   background-color: #333;
+}

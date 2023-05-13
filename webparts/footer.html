@@ -1,0 +1,32 @@
+<footer>
+    <div class="container">
+       <div class="row">
+          <div class="col-12">
+             <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+             <p>&copy; 2023 Todos los derechos reservados</p>
+          </div>
+       </div>
+    </div>
+ </footer>
+ 
+         <!-- Scripts -->
+            
+             <script>
+    // Botón para volver al principio de la página
+    // Muestra el botón cuando el usuario ha bajado 20px
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("myBtn").style.display = "block";
+       } else {
+          document.getElementById("myBtn").style.display = "none";
+       }
+    }
+    
+    // Al hacer clic en el botón, vuelve al principio de la página
+    function topFunction() {
+       document.body.scrollTop = 0;
+       document.documentElement.scrollTop = 0;
+    }
+ </script>
